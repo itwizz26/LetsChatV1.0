@@ -1,7 +1,7 @@
 LetsChat V1.0 - a bootstrap/HTML5/PHP5 online commenting system.
 =============
 
-LetsChat V1.0 is a free responsive, single-page HTML5 template base on the Twitter Bootstrap framework. 
+LetsChat V1.0 is a free responsive, HTML5 template base on the Twitter Bootstrap framework. 
 
 
 License
@@ -11,6 +11,8 @@ License
 To Install
 ----------
 Run the queries in the LetsChat.sql file to create the database structure.
+Change the database credentials in /app/models/Chat.php to match your own
+login, i.e. the 4 DB constants - HOST, DBASE, USER and PASS.
 Save the files on your web server under the directory /letschat and open
 http://localhost/letschat/public/ in your browser to start commenting.
 
