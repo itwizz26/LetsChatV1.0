@@ -15,7 +15,7 @@ if ($mode == "signup")
 	$password = htmlentities (trim ($_REQUEST['password']));
 	$firstname = htmlentities (trim ($_REQUEST['firstname']));
 	$lastname = htmlentities (trim ($_REQUEST['lastname']));
-	if (isset ($_REQUEST['gender'])) $gender = $_REQUEST['gender'];
+	$gender = $_REQUEST['gender'];
 	
 	// Check if user extists
 	$getUame = $liveChat->get ("members", ["username", "=", $username]);
@@ -156,7 +156,7 @@ elseif ($mode == "update")
 	$newPassword = htmlentities (trim ($_REQUEST['newPassword']));
 	$firstname = htmlentities (trim ($_REQUEST['firstname']));
 	$lastname = htmlentities (trim ($_REQUEST['lastname']));
-	if (isset ($_REQUEST['gender'])) $gender = $_REQUEST['gender'];
+	$gender = $_REQUEST['gender'];
 	
 	// Update details
 	$updateUser = $liveChat->update ("members", ["username" => $username, "pass" => $newPassword, "name" => $firstname,

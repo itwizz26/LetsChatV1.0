@@ -53,7 +53,7 @@
 						<div class="form-group form-actions">
 							<div class="col-xs-2 col-md-offset-2">
 								<label class="csscheckbox csscheckbox-primary">
-									<input type="radio" id="gender" name="gender" value="M" />
+									<input type="radio" id="gender" name="gender" value="M" checked="checked" />
 									<span></span>
 								</label> Male
 							</div>
