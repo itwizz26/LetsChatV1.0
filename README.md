@@ -34,7 +34,7 @@ Bug tracker
 -----------
 
 Found a bug? Please create an issue here on GitHub! 
-https://github.com/itwizz26/
+https://github.com/itwizz26/LetsChatV1.0/issues
 
 
 Credits
