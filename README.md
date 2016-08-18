@@ -1,4 +1,4 @@
-LetsChat V1.0 - a bootstrap/HTML5/PHP5 online commenting system.
+LetsChat V1.0 - a bootstrap/HTML5/PHP5/MySQL online commenting system.
 =============
 
 LetsChat V1.0 is a free responsive, HTML5 template base on the Twitter Bootstrap framework. 
@@ -10,11 +10,12 @@ License
 
 To Install
 ----------
-Run the queries in the LetsChat.sql file to create the database structure.
+Run the queries in the LetsChat.sql file to create the database structure in MySQL DB.
 Change the database credentials in /app/models/Chat.php to match your own
-login, i.e. the 4 DB constants - HOST, DBASE, USER and PASS.
-Save the files on your web server under the directory /letschat and open
-http://localhost/letschat/public/ in your browser to start commenting.
+login, i.e. the constants - HOST, DBASE, USER and PASS. Save the files on your web
+server's root directory (e.g. www_root/ or htdocs/) under a directory called letschat,
+i.e. /letschat/app/ and /letschat/public/.
+Open http://localhost/letschat/public/ in your browser to start commenting.
 
 Browser support
 ---------------
